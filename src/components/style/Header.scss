@@ -1,0 +1,50 @@
+
+
+#header{
+  background: black;
+  .header{
+    padding: 30px 0;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      width: 100px;
+    }
+    &--nav{
+      .active{
+        color: red;
+      }
+      &__link{
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        margin: 0 30px;
+      }
+    }
+    &--search{
+     input{
+       padding: 12px 30px;
+       border: 3px solid white;
+       outline: none;
+       color: white;
+       font-size: 13px;
+       border-radius: 20px;
+       background: none;
+     }
+      button{
+        padding: 12px 30px;
+        border-radius: 20px;
+        border: 3px solid #faf7f7;
+        background: #18f1f1;
+        margin-left: 30px;
+        transition: .4s;
+        &:hover{
+          border: 3px solid #8fe88f;
+          background: #55e755;
+          color: white;
+        }
+      }
+    }
+  }
+}

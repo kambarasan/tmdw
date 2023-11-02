@@ -1,5 +1,7 @@
 
 @import "./components/style/Header.scss";
+@import "./components/style/Popular.scss";
+@import "./components/style/dateilPage.scss";
 *{
   margin: 0;
   padding: 0;
@@ -13,3 +15,5 @@ a{
   width: 90%;
   margin: 0 auto;
 }
+
+
