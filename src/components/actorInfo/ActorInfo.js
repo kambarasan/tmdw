@@ -32,9 +32,9 @@ const ActorInfo = () => {
                             }
                         </div>
                         <div className='datailPage--block'>
-                            <h2 style={{color:'black'}}>{info.name}</h2>
-                            <h3 style={{paddingTop:'30px',paddingBottom:'20px'}}>biography</h3>
-                            <p style={{width:'900px'}}>{info.biography}</p>
+                            <h2 style={{color:'white',}}>{info.name}</h2>
+                            <h3 style={{paddingTop:'30px',paddingBottom:'20px',color:'white' ,fontSize:'28px'}}>biography</h3>
+                            <p style={{width:'900px',color:'white'}}>{info.biography}</p>
                         </div>
                     </div>
                 </div>

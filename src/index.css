@@ -13,3 +13,7 @@ a{
   width: 90%;
   margin: 0 auto;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

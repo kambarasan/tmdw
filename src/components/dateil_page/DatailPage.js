@@ -16,7 +16,6 @@ const DatailPage = () => {
     const [modal,setModal] = useState(false)
     const [details,setDetails] = useState({})
     const {language} = useContext(LanguageContext)
-    const [icon,setIcon] = useState("#fff")
     const {movieId} = useParams()
     const getDetails = (Key) =>{
         axios(`https://api.themoviedb.org/3/movie/${movieId}?api_key=${Key}&language=${language}`).then((res)=>{

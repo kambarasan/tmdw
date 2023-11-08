@@ -23,7 +23,8 @@
 }
 #header .header--search input {
   padding: 12px 30px;
-  border: 3px solid white;
+  border: 2px solid white;
+  box-shadow: 0 0 10px 2px #f3f0f0;
   outline: none;
   color: white;
   font-size: 13px;
@@ -33,20 +34,21 @@
 #header .header--search button {
   padding: 12px 30px;
   border-radius: 20px;
-  border: 3px solid #faf7f7;
-  background: #18f1f1;
+  border: 1px solid #faf7f7;
+  box-shadow: 0 0 10px 2px #f3f0f0;
+  background: #0f1010;
   margin-left: 30px;
   transition: 0.4s;
+  color: white;
 }
 #header .header--search button:hover {
-  border: 3px solid #8fe88f;
-  background: #55e755;
-  color: white;
+  border: 1px solid #181a18;
+  background: #f4f8f4;
+  color: #da1212;
 }
 
 #popular {
   padding: 50px 0;
-  background: #090909;
 }
 #popular .popular {
   padding: 50px 0;
@@ -60,7 +62,7 @@
 #popular .popular--card {
   width: 280px;
   height: 440px;
-  border: 2px solid #f6f1f1;
+  border: 2px solid #7c7878;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -112,6 +114,7 @@
   align-items: flex-start;
   padding-top: 100px;
   transition: 0.3s;
+  height: 900px;
 }
 #datailPage .datailPage--nav {
   display: flex;

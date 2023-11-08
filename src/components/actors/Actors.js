@@ -39,11 +39,40 @@ const Actors = () => {
                                 <div className='actors--showActor'>
                                     <Link to={`/movie/actor-info/${el.id}`}>
                                         {
-                                            el.profile_path ?  <img src={`https://www.themoviedb.org/t/p/w138_and_h175_face${el.profile_path}`}
-                                                                    alt=""/> : <img width={'65%'}
-                                                                                    height={'60%'} src={user} alt=""/>
+                                            el.profile_path ?
+
+                                                <div style={{
+                                                    display:'flex',
+                                                    justifyContent:'center',
+                                                    alignItems:"center",
+                                                    flexDirection:"column",
+                                                    textAlign:"center",
+                                                marginTop:'30px',
+                                                border:'1px solid white',
+                                                    gap:'20px',
+                                                    fontSize:'18px',
+                                                    color:'white'
+                                            }}>
+
+                                                <img src={`https://www.themoviedb.org/t/p/w138_and_h175_face${el.profile_path}`} alt=""/>
+                                                    <h1 style={{width:'200px'}}>{el.name}</h1>
+                                            </div> : <div style={{
+                                                    display:'flex',
+                                                    justifyContent:'center',
+                                                    alignItems:"center",
+                                                    flexDirection:"column",
+                                                    textAlign:"center",
+                                                    marginTop:'30px',
+                                                    border:'1px solid white',
+                                                    gap:'20px',
+                                                    fontSize:'18px',
+                                                color:'white'
+                                            }}>
+                                                    <img width={'69%'} src={user} alt=""/>
+                                                    <h1 style={{width:'200px'}}>{el.name}</h1>
+                                            </div>
                                         }
-                                        <h1 style={{width:'200px'}}>{el.name}</h1>
+
                                     </Link>
                                 </div>
                             ))
